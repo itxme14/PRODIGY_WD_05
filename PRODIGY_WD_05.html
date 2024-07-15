@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #e8f1f2;
+        }
+
+        header {
+            background-color: #1abc9c;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+            padding-top: 100px; /* Adjusted padding to offset fixed header */
+        }
+
+        #main-info {
+            padding: 30px;
+            background: #fff;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #main-info img {
+            border-radius: 50%;
+            margin: 20px 0;
+            width: 150px; /* Set the desired width */
+            height: 150px; /* Set the desired height */
+        }
+
+        .about, .skills, .contact {
+            background: #fff;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .about h2, .skills h2, .contact h2 {
+            text-align: center;
+            color: #1abc9c;
+            margin-bottom: 20px;
+        }
+
+        .about p, .skills ul, .contact p {
+            line-height: 1.8;
+            color: #34495e;
+        }
+
+        .skills ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            background: #1abc9c;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            z-index: 1000;
+        }
+
+        a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1abc9c;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #16a085;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Muhammad Waqar Hussain</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <div class="container">
+        <section id="main-info">
+            <img src="wqr.png" alt="Your Photo">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm Muhammad Waqar Hussain, a web developer with a passion for creating stunning and functional websites. Explore my portfolio to see some of my work and learn more about me.</p>
+        </section>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I am Muhammad Waqar Hussain, a 22-year-old undergraduate in my 3rd year in the Department of Information Technology, where I secured the 4th position in my class. My expertise includes HTML, CSS, JavaScript, PHP, enabling me to create dynamic, responsive, and user-friendly websites.</p>
+            <p>I combine creativity and technical proficiency to develop visually appealing and efficient web solutions. My skills in front-end and back-end development allow me to handle everything from elegant layouts and interactive user experiences to server-side programming and database management.</p>
+            <p>I am committed to continuous learning and staying updated with the latest web development trends. I am eager to collaborate on innovative projects and contribute to impactful solutions in the tech industry.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Content Writing</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Mobile: +92 316 4327538</p>
+            <p>Email: <a href="#">M_waqar@gmail.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Muhammad Waqar Hussain</p>
+    </footer>
+    <br><br><br><br>
+</body>
+</html>
